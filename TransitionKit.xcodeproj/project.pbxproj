@@ -53,7 +53,6 @@
 		252C465116F6A57700CF1FEA /* TKStateMachineSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKStateMachineSpec.m; sourceTree = "<group>"; };
 		252C465516F6A58700CF1FEA /* TKEventSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKEventSpec.m; sourceTree = "<group>"; };
 		252C465916F6A59500CF1FEA /* TKStateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKStateSpec.m; sourceTree = "<group>"; };
-		252C465C16F6A79100CF1FEA /* TransitionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionKit.h; sourceTree = "<group>"; };
 		25AE19B51809A70E00AF5535 /* iOS Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Specs.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B01F9A1808941D007488E1 /* TKTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKTransition.h; sourceTree = "<group>"; };
 		25B01F9B1808941D007488E1 /* TKTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTransition.m; sourceTree = "<group>"; };
@@ -94,21 +93,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16BA4375231D1C5F005C3712 /* TransitionKit */ = {
-			isa = PBXGroup;
-			children = (
-				16BA4376231D1C5F005C3712 /* TransitionKit.h */,
-				16BA4377231D1C5F005C3712 /* Info.plist */,
-			);
-			path = TransitionKit;
-			sourceTree = "<group>";
-		};
 		252C45CF16F681D400CF1FEA = {
 			isa = PBXGroup;
 			children = (
 				252C460316F6833D00CF1FEA /* Code */,
 				252C460816F6835900CF1FEA /* Specs */,
-				16BA4375231D1C5F005C3712 /* TransitionKit */,
 				252C45DA16F681D400CF1FEA /* Frameworks */,
 				252C45D916F681D400CF1FEA /* Products */,
 				592F22F9056A5A6C9B079323 /* Pods */,
@@ -150,7 +139,8 @@
 				252C464C16F6A4DF00CF1FEA /* TKState.m */,
 				25B01F9A1808941D007488E1 /* TKTransition.h */,
 				25B01F9B1808941D007488E1 /* TKTransition.m */,
-				252C465C16F6A79100CF1FEA /* TransitionKit.h */,
+				16BA4376231D1C5F005C3712 /* TransitionKit.h */,
+				16BA4377231D1C5F005C3712 /* Info.plist */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -469,7 +459,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = TransitionKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -527,7 +517,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = TransitionKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

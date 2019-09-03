@@ -18,12 +18,20 @@
 //  limitations under the License.
 //
 
+#import <Foundation/Foundation.h>
+
+//! Project version number for TransitionKit.
+FOUNDATION_EXPORT double TransitionKitVersionNumber;
+
+//! Project version string for TransitionKit.
+FOUNDATION_EXPORT const unsigned char TransitionKitVersionString[];
+
 #ifndef TransitionKit_TransitionKit_h
 #define TransitionKit_TransitionKit_h
 
-#import "TKStateMachine.h"
-#import "TKEvent.h"
-#import "TKState.h"
-#import "TKTransition.h"
+#import <TransitionKit/TKStateMachine.h>
+#import <TransitionKit/TKEvent.h>
+#import <TransitionKit/TKState.h>
+#import <TransitionKit/TKTransition.h>
 
 #endif
